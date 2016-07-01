@@ -2,14 +2,10 @@
 *.lvlibp
 *.llb
 
-# Shared objects (inc. Windows DLLs)
-*.dll
+# Shared objects
 *.so
 *.so.*
 *.dylib
-
-# Executables
-*.exe
 
 # Metadata
 *.aliases
