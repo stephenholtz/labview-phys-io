@@ -1,21 +1,3 @@
 {
-	"exp_time": "20160701T165603",
-	"exp_name": "testing",
-	"fly_age": "6",
-	"genotype": "test",
-	"fly_name": "test",
-	"fly_sex": "test",
-	"prep_type": "test",
-	"platform_type": "test",
-	"piezo_travel": "test",
-	"piezo_type": "test",
-	"piezo_servo": "test",
-	"piezo_amp": "test",
-	"amplifier_name": "Multiclamp 700B",
-	"camera_name": "ORCA FLASH 4.0",
-	"piezo_manipulator": "Sensapex right-handed heavy-load",
-	"electrode_manipulator": "Sutter MP-285",
-	"hook_manipulator": "Sutter MP-225",
-	"daq_channels": "test",
-	"daq_rate": "test"
+	"exp_time": "20160701T182908"
 }

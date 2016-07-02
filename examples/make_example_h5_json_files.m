@@ -37,6 +37,7 @@ p.stims(2).name = 'stim2';
 p.stims(2).fp = {'folder','subfolder','stim2'};
 p.stims(2).reps = 4;
 
+p.n_stims = numel(p.stims);
 [~] = savejson('',p,jsonfp);
 jo_p=loadjson(jsonfp);
 
