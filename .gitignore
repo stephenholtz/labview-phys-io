@@ -1,3 +1,9 @@
+# Matlab
+.asv
+
+# OSX
+.DS_STORE
+
 # Libraries
 *.lvlibp
 *.llb
