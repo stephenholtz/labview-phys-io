@@ -29,7 +29,7 @@ jsonfp = [name ext];
 
 p.name = name;
 p.sample_rate = sample_rate;
-
+t
 p.stims(1).name = 'stim1';
 p.stims(1).fp = {'folder','subfolder','stim1'};
 p.stims(1).reps = 2;
