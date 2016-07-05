@@ -12,12 +12,14 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="dcimg2tiffs_vision.vi" Type="VI" URL="../dcimg2tiffs_vision.vi"/>
 		<Item Name="init_DAC_700b_ai_chans.vi" Type="VI" URL="../init_DAC_700b_ai_chans.vi"/>
-		<Item Name="init_DAC_all_di_chans.vi" Type="VI" URL="../init_DAC_all_di_chans.vi"/>
+		<Item Name="init_DAC_di_chans.vi" Type="VI" URL="../init_DAC_di_chans.vi"/>
+		<Item Name="init_DAC_do_chans.vi" Type="VI" URL="../init_DAC_do_chans.vi"/>
 		<Item Name="init_DAC_piezo_ai_chans.vi" Type="VI" URL="../init_DAC_piezo_ai_chans.vi"/>
 		<Item Name="read_metadata_json.vi" Type="VI" URL="../read_metadata_json.vi"/>
 		<Item Name="read_protocol_json.vi" Type="VI" URL="../read_protocol_json.vi"/>
 		<Item Name="read_stimulus_alignment_command_h5.vi" Type="VI" URL="../read_stimulus_alignment_command_h5.vi"/>
 		<Item Name="read_stimulus_piezo_command_h5.vi" Type="VI" URL="../read_stimulus_piezo_command_h5.vi"/>
+		<Item Name="run_experiment_sCMOS_DAC.vi" Type="VI" URL="../run_experiment_sCMOS_DAC.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="tm_closedcimgfile.vi" Type="VI" URL="/&lt;userlib&gt;/Hamamatsu Video Capture/dcimg/tm_closedcimgfile.vi"/>
