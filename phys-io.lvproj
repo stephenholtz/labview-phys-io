@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="dcimg2tiffs_vision.vi" Type="VI" URL="../dcimg2tiffs_vision.vi"/>
 		<Item Name="init_DAC_700b_ai_chans.vi" Type="VI" URL="../init_DAC_700b_ai_chans.vi"/>
+		<Item Name="init_DAC_ao_chans.vi" Type="VI" URL="../init_DAC_ao_chans.vi"/>
 		<Item Name="init_DAC_di_chans.vi" Type="VI" URL="../init_DAC_di_chans.vi"/>
 		<Item Name="init_DAC_do_chans.vi" Type="VI" URL="../init_DAC_do_chans.vi"/>
 		<Item Name="init_DAC_piezo_ai_chans.vi" Type="VI" URL="../init_DAC_piezo_ai_chans.vi"/>
