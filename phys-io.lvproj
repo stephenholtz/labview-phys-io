@@ -18,6 +18,7 @@
 		<Item Name="init_DAC_do_chans.vi" Type="VI" URL="../init_DAC_do_chans.vi"/>
 		<Item Name="init_DAC_piezo_ai_chans.vi" Type="VI" URL="../init_DAC_piezo_ai_chans.vi"/>
 		<Item Name="init_DCAM_configure_ouput_triggers.vi" Type="VI" URL="../init_DCAM_configure_ouput_triggers.vi"/>
+		<Item Name="make_recording_h5_files.vi" Type="VI" URL="../make_recording_h5_files.vi"/>
 		<Item Name="read_metadata_json.vi" Type="VI" URL="../read_metadata_json.vi"/>
 		<Item Name="read_protocol_json.vi" Type="VI" URL="../read_protocol_json.vi"/>
 		<Item Name="read_stimulus_alignment_command_h5.vi" Type="VI" URL="../read_stimulus_alignment_command_h5.vi"/>
