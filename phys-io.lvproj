@@ -24,6 +24,7 @@
 		<Item Name="read_stimulus_alignment_command_h5.vi" Type="VI" URL="../read_stimulus_alignment_command_h5.vi"/>
 		<Item Name="read_stimulus_piezo_command_h5.vi" Type="VI" URL="../read_stimulus_piezo_command_h5.vi"/>
 		<Item Name="run_experiment_sCMOS_DAC.vi" Type="VI" URL="../run_experiment_sCMOS_DAC.vi"/>
+		<Item Name="testing_camera_settings.vi" Type="VI" URL="../examples/testing_camera_settings.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="tm_closecamera.vi" Type="VI" URL="/&lt;userlib&gt;/Hamamatsu Video Capture/tm_closecamera.vi"/>
