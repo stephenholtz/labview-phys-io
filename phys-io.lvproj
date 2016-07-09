@@ -12,15 +12,12 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="dcimg2tiffs_vision.vi" Type="VI" URL="../dcimg2tiffs_vision.vi"/>
 		<Item Name="hamamatsu_dcam_update_camera_settings.vi" Type="VI" URL="../hamamatsu_dcam_update_camera_settings.vi"/>
-		<Item Name="init_DAC_700b_ai_chans.vi" Type="VI" URL="../init_DAC_700b_ai_chans.vi"/>
-		<Item Name="init_DAC_ao_do_chans.vi" Type="VI" URL="../init_DAC_ao_do_chans.vi"/>
-		<Item Name="init_DCAM_configure_ouput_triggers.vi" Type="VI" URL="../init_DCAM_configure_ouput_triggers.vi"/>
+		<Item Name="init_daq_ao_do.vi" Type="VI" URL="../init_daq_ao_do.vi"/>
 		<Item Name="make_recording_h5_files.vi" Type="VI" URL="../make_recording_h5_files.vi"/>
 		<Item Name="read_metadata_json.vi" Type="VI" URL="../read_metadata_json.vi"/>
 		<Item Name="read_protocol_json.vi" Type="VI" URL="../read_protocol_json.vi"/>
-		<Item Name="read_stimulus_alignment_command_h5.vi" Type="VI" URL="../read_stimulus_alignment_command_h5.vi"/>
-		<Item Name="read_stimulus_piezo_command_h5.vi" Type="VI" URL="../read_stimulus_piezo_command_h5.vi"/>
-		<Item Name="run_experiment_sCMOS_DAC.vi" Type="VI" URL="../run_experiment_sCMOS_DAC.vi"/>
+		<Item Name="read_stimulus_h5.vi" Type="VI" URL="../read_stimulus_h5.vi"/>
+		<Item Name="run_experiment_sCMOS_DAC_pre_refactor.vi" Type="VI" URL="../run_experiment_sCMOS_DAC_pre_refactor.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="tm_closecamera.vi" Type="VI" URL="/&lt;userlib&gt;/Hamamatsu Video Capture/tm_closecamera.vi"/>
@@ -280,8 +277,13 @@
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
+				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
+				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
-			<Item Name="init_DAC_piezo_ai_chans.vi" Type="VI" URL="../init_DAC_piezo_ai_chans.vi"/>
+			<Item Name="init_daq_ai_di.vi" Type="VI" URL="../init_daq_ai_di.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
