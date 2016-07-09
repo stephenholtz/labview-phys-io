@@ -9,8 +9,9 @@ Purpose:
 Requires:
 - Windows 7 or 10 (64-bit)
 - 64-bit DCAM API
+- Hamamatsu LabVIEW Video Capture Library
 - LabVIEW 2015 (64-bit)
-- NI Vision (only for ROIs on displayed acquisition)
+- NI Vision
 - NIDAQmx 15.1 (or 14.5)
 - newest hdf5 libraries
-- h5labview plugin (easier/less broken than the NI provided plugin)
+- h5labview plugin (easier/less broken than the NI provided plugin) http://h5labview.sourceforge.net/
