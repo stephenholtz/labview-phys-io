@@ -15,7 +15,9 @@
 		<Item Name="dcimg2tiffs_vision.vi" Type="VI" URL="../dcimg2tiffs_vision.vi"/>
 		<Item Name="hamamatsu_dcam_update_camera_settings.vi" Type="VI" URL="../hamamatsu_dcam_update_camera_settings.vi"/>
 		<Item Name="init_daq_ao_do.vi" Type="VI" URL="../init_daq_ao_do.vi"/>
+		<Item Name="init_dcam_sCMOS.vi" Type="VI" URL="../init_dcam_sCMOS.vi"/>
 		<Item Name="make_recording_h5_files.vi" Type="VI" URL="../make_recording_h5_files.vi"/>
+		<Item Name="order_shuffle_stimuli.vi" Type="VI" URL="../order_shuffle_stimuli.vi"/>
 		<Item Name="read_metadata_json.vi" Type="VI" URL="../read_metadata_json.vi"/>
 		<Item Name="read_protocol_json.vi" Type="VI" URL="../read_protocol_json.vi"/>
 		<Item Name="read_stimulus_h5.vi" Type="VI" URL="../read_stimulus_h5.vi"/>
