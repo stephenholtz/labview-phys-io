@@ -10,6 +10,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="analog2digital_wf_array.vi" Type="VI" URL="../analog2digital_wf_array.vi"/>
+		<Item Name="append_h5_dataset.vi" Type="VI" URL="../append_h5_dataset.vi"/>
 		<Item Name="dcimg2tiffs_vision.vi" Type="VI" URL="../dcimg2tiffs_vision.vi"/>
 		<Item Name="hamamatsu_dcam_update_camera_settings.vi" Type="VI" URL="../hamamatsu_dcam_update_camera_settings.vi"/>
 		<Item Name="init_daq_ao_do.vi" Type="VI" URL="../init_daq_ao_do.vi"/>
