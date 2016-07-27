@@ -17,6 +17,7 @@
 		<Item Name="init_daq_ao_do.vi" Type="VI" URL="../init_daq_ao_do.vi"/>
 		<Item Name="init_dcam_sCMOS.vi" Type="VI" URL="../init_dcam_sCMOS.vi"/>
 		<Item Name="make_recording_h5_files.vi" Type="VI" URL="../make_recording_h5_files.vi"/>
+		<Item Name="make_rep_trial_folder_str.vi" Type="VI" URL="../make_rep_trial_folder_str.vi"/>
 		<Item Name="order_shuffle_stimuli.vi" Type="VI" URL="../order_shuffle_stimuli.vi"/>
 		<Item Name="read_metadata_json.vi" Type="VI" URL="../read_metadata_json.vi"/>
 		<Item Name="read_protocol_json.vi" Type="VI" URL="../read_protocol_json.vi"/>
@@ -53,6 +54,7 @@
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
+				<Item Name="DAQmx Configure Output Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/buffer.llb/DAQmx Configure Output Buffer.vi"/>
 				<Item Name="DAQmx Create AI Channel (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create AI Channel (sub).vi"/>
 				<Item Name="DAQmx Create AI Channel TEDS(sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create AI Channel TEDS(sub).vi"/>
 				<Item Name="DAQmx Create AO Channel (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create AO Channel (sub).vi"/>
