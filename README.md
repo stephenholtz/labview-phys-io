@@ -12,6 +12,6 @@ Requires:
 - Hamamatsu LabVIEW Video Capture Library
 - LabVIEW 2015 (64-bit)
 - NI Vision
-- NIDAQmx 15.1 (or 14.5)
+- NIDAQmx 15.1 (required for daq functions in use)
 - newest hdf5 libraries
 - h5labview plugin (easier/less broken than the NI provided plugin) http://h5labview.sourceforge.net/
