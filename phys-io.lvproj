@@ -17,6 +17,7 @@
 		<Item Name="hamamatsu_dcam_update_camera_settings.vi" Type="VI" URL="../hamamatsu_dcam_update_camera_settings.vi"/>
 		<Item Name="init_daq_ao_do.vi" Type="VI" URL="../init_daq_ao_do.vi"/>
 		<Item Name="init_dcam_sCMOS.vi" Type="VI" URL="../init_dcam_sCMOS.vi"/>
+		<Item Name="iterate_folder_name.vi" Type="VI" URL="../iterate_folder_name.vi"/>
 		<Item Name="make_recording_h5_files.vi" Type="VI" URL="../make_recording_h5_files.vi"/>
 		<Item Name="make_rep_trial_folder_str.vi" Type="VI" URL="../make_rep_trial_folder_str.vi"/>
 		<Item Name="order_shuffle_stimuli.vi" Type="VI" URL="../order_shuffle_stimuli.vi"/>
