@@ -10,21 +10,31 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="analog2digital_wf_array.vi" Type="VI" URL="../analog2digital_wf_array.vi"/>
-		<Item Name="append_h5_dataset.vi" Type="VI" URL="../append_h5_dataset.vi"/>
-		<Item Name="check_piezo_travel.vi" Type="VI" URL="../check_piezo_travel.vi"/>
-		<Item Name="dcimg2tiffs_vision.vi" Type="VI" URL="../dcimg2tiffs_vision.vi"/>
-		<Item Name="hamamatsu_dcam_update_camera_settings.vi" Type="VI" URL="../hamamatsu_dcam_update_camera_settings.vi"/>
-		<Item Name="init_daq_ao_do.vi" Type="VI" URL="../init_daq_ao_do.vi"/>
-		<Item Name="init_dcam_sCMOS.vi" Type="VI" URL="../init_dcam_sCMOS.vi"/>
-		<Item Name="iterate_folder_name.vi" Type="VI" URL="../iterate_folder_name.vi"/>
-		<Item Name="make_recording_h5_files.vi" Type="VI" URL="../make_recording_h5_files.vi"/>
-		<Item Name="make_rep_trial_folder_str.vi" Type="VI" URL="../make_rep_trial_folder_str.vi"/>
-		<Item Name="order_shuffle_stimuli.vi" Type="VI" URL="../order_shuffle_stimuli.vi"/>
-		<Item Name="read_metadata_json.vi" Type="VI" URL="../read_metadata_json.vi"/>
-		<Item Name="read_protocol_json.vi" Type="VI" URL="../read_protocol_json.vi"/>
-		<Item Name="read_stimulus_h5.vi" Type="VI" URL="../read_stimulus_h5.vi"/>
-		<Item Name="run_experiment_sCMOS_DAC.vi" Type="VI" URL="../run_experiment_sCMOS_DAC.vi"/>
+		<Item Name="main" Type="Folder">
+			<Item Name="hamamatsu_dcam_update_camera_settings.vi" Type="VI" URL="../hamamatsu_dcam_update_camera_settings.vi"/>
+			<Item Name="run_experiment_sCMOS_DAC.vi" Type="VI" URL="../run_experiment_sCMOS_DAC.vi"/>
+		</Item>
+		<Item Name="testing" Type="Folder">
+			<Item Name="check_piezo_travel.vi" Type="VI" URL="../check_piezo_travel.vi"/>
+		</Item>
+		<Item Name="utilities" Type="Folder">
+			<Item Name="analog2digital_wf_array.vi" Type="VI" URL="../analog2digital_wf_array.vi"/>
+			<Item Name="append_h5_dataset.vi" Type="VI" URL="../append_h5_dataset.vi"/>
+			<Item Name="dcimg2tiffs_vision.vi" Type="VI" URL="../dcimg2tiffs_vision.vi"/>
+			<Item Name="init_daq_ao_do.vi" Type="VI" URL="../init_daq_ao_do.vi"/>
+			<Item Name="init_dcam_sCMOS.vi" Type="VI" URL="../init_dcam_sCMOS.vi"/>
+			<Item Name="iterate_folder_name.vi" Type="VI" URL="../iterate_folder_name.vi"/>
+			<Item Name="make_recording_h5_files.vi" Type="VI" URL="../make_recording_h5_files.vi"/>
+			<Item Name="make_rep_trial_folder_str.vi" Type="VI" URL="../make_rep_trial_folder_str.vi"/>
+			<Item Name="order_shuffle_stimuli.vi" Type="VI" URL="../order_shuffle_stimuli.vi"/>
+			<Item Name="read_metadata_json.vi" Type="VI" URL="../read_metadata_json.vi"/>
+			<Item Name="read_protocol_json.vi" Type="VI" URL="../read_protocol_json.vi"/>
+			<Item Name="read_stimulus_h5.vi" Type="VI" URL="../read_stimulus_h5.vi"/>
+		</Item>
+		<Item Name="imaging_panel.vi" Type="VI" URL="../imaging_panel.vi"/>
+		<Item Name="master_panel.vi" Type="VI" URL="../master_panel.vi"/>
+		<Item Name="physiology_panel.vi" Type="VI" URL="../physiology_panel.vi"/>
+		<Item Name="stimulus_panel.vi" Type="VI" URL="../stimulus_panel.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="tm_closecamera.vi" Type="VI" URL="/&lt;userlib&gt;/Hamamatsu Video Capture/tm_closecamera.vi"/>
