@@ -21,6 +21,7 @@
 			<Item Name="analog2digital_wf_array.vi" Type="VI" URL="../analog2digital_wf_array.vi"/>
 			<Item Name="append_h5_dataset.vi" Type="VI" URL="../append_h5_dataset.vi"/>
 			<Item Name="dcimg2tiffs_vision.vi" Type="VI" URL="../dcimg2tiffs_vision.vi"/>
+			<Item Name="get_base_directories.vi" Type="VI" URL="../get_base_directories.vi"/>
 			<Item Name="init_daq_ao_do.vi" Type="VI" URL="../init_daq_ao_do.vi"/>
 			<Item Name="init_dcam_sCMOS.vi" Type="VI" URL="../init_dcam_sCMOS.vi"/>
 			<Item Name="iterate_folder_name.vi" Type="VI" URL="../iterate_folder_name.vi"/>
